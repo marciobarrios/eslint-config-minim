@@ -1,0 +1,36 @@
+{
+  "name": "eslint-config-minim",
+  "version": "1.0.0",
+  "description": "Eslint config that only helps you when you are going to mess it up and doesn't bother you about code style",
+  "main": "index.js",
+  "repository": "https://github.com/marciobarrios/eslint-config-minim",
+  "author": "Marcio Barrios <marciobarrios@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "commit": "npx git-cz",
+    "precommit": "lint-staged",
+    "release": "standard-version && git push --follow-tags origin master"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "prettier --fix",
+      "git add"
+    ]
+  },
+  "peerDependencies": {
+    "eslint": ">=4.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.4.0",
+    "eslint-config-unobtrusive": "^1.2.2",
+    "eslint-plugin-cypress": "^2.0.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-react": "^7.11.1",
+    "lint-staged": "^7.2.2",
+    "prettier": "^1.14.2",
+    "standard-version": "^4.4.0"
+  }
+}
