@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-minim",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Eslint config that only helps you when you are going to mess it up and doesn't bother you about code style",
   "main": "index.js",
   "repository": "https://github.com/marciobarrios/eslint-config-minim",
