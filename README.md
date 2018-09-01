@@ -1,5 +1,8 @@
 # eslint-config-minim
-Eslint config that only helps you when you are going to mess it up and doesn't bother you about code style
+[![npm version](https://img.shields.io/npm/v/eslint-config-minim.svg)](https://www.npmjs.com/package/eslint-config-minim)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+ESLint config that only helps you when you are going to mess it up and doesn't bother you about code style
 
 ## Why?
 If you are frustrated extending your ESLint config from [eslint-config-standard](https://www.npmjs.com/package/eslint-config-standard) or [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb) then you are in the right place.
@@ -9,7 +12,7 @@ ESLint is an essential tool to lint your code, but sometimes does too much job a
 Basically **eslint-config-minim** is just extending the awesome [eslint-config-unobtrusive](https://github.com/suchipi/eslint-config-unobtrusive), I recommend you to read the documentation to understand better the main goals and advantages of this approach.
 
 ## Who should use it
-If you use ES6 modules, React, Jest or Cypress looks like this config could be really useful for you.
+If you use ES6 modules, React, Jest or Cypress this config could be really useful for you.
 
 ## Installation
 1. Install the package:
