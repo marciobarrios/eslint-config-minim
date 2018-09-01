@@ -6,10 +6,15 @@
   "repository": "https://github.com/marciobarrios/eslint-config-minim",
   "author": "Marcio Barrios <marciobarrios@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "eslint",
+    "linter",
+    "lint"
+  ],
   "scripts": {
     "commit": "npx git-cz",
     "precommit": "lint-staged",
-    "release": "standard-version && git push --follow-tags origin master"
+    "release": "standard-version"
   },
   "lint-staged": {
     "*.js": [
