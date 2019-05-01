@@ -17,7 +17,7 @@ If you use ES6 modules, React, Jest or Cypress this config could be really usefu
 ## Installation
 1. Install the package:
 ```shell
-npm install --save-dev eslint-config-minim
+npm install --save-dev eslint-config-{minim,unobtrusive} eslint-plugin-{cypress,import,promise,react}
 ```
 
 2. Use this ESLint configuration creating an `.eslintrc.json` file in the root of your project with this content:
